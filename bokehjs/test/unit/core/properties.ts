@@ -652,7 +652,7 @@ describe("properties module", () => {
     describe("validate", () => {
       it("should return undefined on font input", () => {
         expect(prop.validate("")).to.be.undefined
-        expect(prop.validate("helvetica")).to.be.undefined
+        expect(prop.validate("Helvetica")).to.be.undefined
       })
 
       it("should throw an Error on non-string input", () => {

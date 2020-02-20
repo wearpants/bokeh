@@ -1033,7 +1033,7 @@ class Title(TextAnnotation):
 
     """)
 
-    text_font = String(default="helvetica", help="""
+    text_font = String(default="Helvetica", help="""
     Name of a font to use for rendering text, e.g., ``'times'``,
     ``'helvetica'``.
 

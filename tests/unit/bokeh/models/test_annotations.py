@@ -389,7 +389,7 @@ def test_Title() -> None:
     assert title.vertical_align == 'bottom'
     assert title.align == 'left'
     assert title.offset == 0
-    assert title.text_font == 'helvetica'
+    assert title.text_font == 'Helvetica'
     assert title.text_font_size == '10pt'
     assert title.text_font_style == 'bold'
     assert title.text_color == '#444444'

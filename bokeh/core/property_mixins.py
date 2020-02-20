@@ -178,7 +178,7 @@ class _BaseLineProps(HasProps):
 
 class _BaseTextProps(HasProps):
 
-    text_font = String("helvetica", help="""
+    text_font = String("Helvetica", help="""
     Name of a font to use for rendering text, e.g., ``'times'``,
     ``'helvetica'``.
 
