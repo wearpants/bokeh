@@ -116,7 +116,8 @@ package_files('_sri.json', 'LICENSE.txt', 'themes/*.yaml', 'themes/*.json', 'uti
 setup(
     # basic package metadata
     name='bokeh',
-    version=get_version(),
+    #version=get_version(),
+    version='2.0.0',
     description='Interactive plots and applications in the browser from Python',
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
