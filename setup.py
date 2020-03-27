@@ -134,7 +134,7 @@ setup(
     package_data=get_package_data(),
     entry_points={'console_scripts': ['bokeh = bokeh.__main__:main']},
     zip_safe=False,
-    cmdclass=get_cmdclass(),
+    #cmdclass=get_cmdclass(),
 )
 
 # if this is just conda-build skimming information, skip all this actual work

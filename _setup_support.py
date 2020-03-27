@@ -18,7 +18,7 @@ from glob import glob
 from os.path import dirname, exists, join, realpath, relpath
 
 # Bokeh imports
-import versioneer
+# import versioneer
 
 # provide fallbacks for highlights in case colorama is not installed
 try:
